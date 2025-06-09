@@ -22,8 +22,8 @@ public class Main {
         double saldo = scanner.nextDouble();
 
 
-        ContaTerminal contaTerminal1 = new ContaTerminal(numeroConta, numeroAgencia, nomeCliente, new BigDecimal(saldo));
-        contaTerminal1.printContaCriadaComSucesso();
+        ContaTerminal contaTerminal = new ContaTerminal(numeroConta, numeroAgencia, nomeCliente, new BigDecimal(saldo));
+        contaTerminal.printContaCriadaComSucesso();
 
         scanner.close();
 
