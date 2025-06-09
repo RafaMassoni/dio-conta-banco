@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Por favor, digite o número da Conta:");
         int numeroConta = scanner.nextInt();
-        scanner.nextLine(); // Consome a quebra de linha pendente
+        scanner.nextLine();
 
         System.out.println("Por favor, digite o número da Agência:");
         String numeroAgencia = scanner.nextLine();
